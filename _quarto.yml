@@ -19,7 +19,8 @@ website:
         href: index.qmd
     right: 
       - text: "About"
-      - href: about.qmd
+        href: about.qmd
+      - icon: github
   page-footer: 
     center: "Copyright &copy; 2026, Kim -Queen of Salsa- Luke"
     background: secondary
