@@ -1,0 +1,31 @@
+project:
+  type: website
+  execute-dir: project
+  output-dir: docs
+  render:
+    - "*.qmd"
+
+execute: 
+  freeze: auto
+
+website:
+  title: "19 Billion Salsas"
+  repo-url: https://github.com/kimisarobot/19billionsalsas.git
+  repo-actions: [issue]
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.qmd
+    right: 
+      - icon: github
+        href: https://github.com/kimisarobot/19billionsalsas.git
+  page-footer: 
+    center: "Copyright &copy; 2026, Kim -Queen of Salsa- Luke"
+    background: secondary
+
+format:
+  html:
+    toc: true
+    link-external-newwindow: true
+    link-external-icon: false
